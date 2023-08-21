@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shopping List</title>
+</head>
+
+<body>
+    <div class="container">
+        <header id="main-header">
+            <h1><i class="fa-solid fa-check"></i>
+                Shopping List</h1>
+        </header>
+
+        <form action="#" class="form-container" id="form-input">
+            <div class="form-control">
+                <input type="text" id="item-input" class="item-input" placeholder="e.g Cake">
+            </div>
+            <div class="form-control">
+                <button class="btn-add-item" id="btn">
+                    <i class="fa-solid fa-plus"></i>
+                    Add Item
+                </button>
+            </div>
+        </form>
+
+        <section class="item-container">
+            <ul id="item-list">
+                <li>
+                    Apple
+                    <button class="remove-item btn-item">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li>
+                    Orange Juice
+                    <button class="remove-item btn-item">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li>
+                    Oreo
+                    <button class="remove-item btn-item">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li>
+                    Cake
+                    <button class="remove-item btn-item">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+            </ul>
+        </section>
+
+        <button id="clear" class="btn-clear-all">Clear All</button>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/f0b3d42456.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
